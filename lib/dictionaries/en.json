@@ -1,0 +1,122 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Empowering Technology",
+    "subtitle": "Innovating for a Smarter Future"
+  },
+  "about_preview": {
+    "title": "About Us",
+    "description": "We are a leading technology company dedicated to delivering innovative solutions that drive progress and empower businesses. Our expertise spans across various domains, ensuring top-notch quality and client satisfaction.",
+    "read_more": "Read More"
+  },
+  "services_section": {
+    "title": "Our Services",
+    "ai_solutions": "AI Solutions",
+    "3d_animation": "3D Animation",
+    "game_development": "Game Development",
+    "mobile_apps": "Mobile Apps",
+    "erp_systems": "ERP Systems",
+    "ui_ux_design": "UI/UX Design",
+    "back_to_services": "Back to Services"
+  },
+  "projects_section": {
+    "title": "Our Projects",
+    "back_to_projects": "Back to Projects"
+  },
+  "contact_section": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send_message": "Send Message",
+    "address": "Address",
+    "phone": "Phone",
+    "email_contact": "Email"
+  },
+  "footer": {
+    "copyright": "© 2024 Tech Solutions. All rights reserved."
+  },
+  "about_page": {
+    "title": "About Our Company",
+    "mission_title": "Our Mission",
+    "mission_description": "Our mission is to revolutionize industries through cutting-edge technology, providing solutions that are not only innovative but also sustainable and user-centric. We believe in fostering a culture of continuous learning and collaboration to achieve excellence.",
+    "team_title": "Our Team",
+    "team_description": "Our diverse team of experts brings together a wealth of experience in software development, AI, design, and project management. We are passionate about technology and committed to delivering exceptional results for our clients."
+  },
+  "service_detail": {
+    "ai_solutions_title": "AI Solutions",
+    "ai_solutions_description": "We develop advanced AI solutions tailored to your business needs, from machine learning models to natural language processing applications. Our AI services help automate processes, gain insights, and enhance decision-making.",
+    "ai_solutions_features": [
+      "Custom ML Model Development",
+      "Natural Language Processing (NLP)",
+      "Computer Vision",
+      "Predictive Analytics",
+      "AI Integration & Consulting"
+    ],
+    "3d_animation_title": "3D Animation",
+    "3d_animation_description": "Bring your ideas to life with stunning 3D animations. We create high-quality visual content for various industries, including advertising, entertainment, and product visualization. Our team uses the latest tools and techniques to deliver captivating animations.",
+    "3d_animation_features": [
+      "Character Animation",
+      "Product Visualization",
+      "Architectural Walkthroughs",
+      "Motion Graphics",
+      "Visual Effects (VFX)"
+    ],
+    "game_development_title": "Game Development",
+    "game_development_description": "From concept to launch, we offer end-to-end game development services for mobile, PC, and console platforms. Our passion for gaming drives us to create immersive and engaging experiences for players worldwide.",
+    "game_development_features": [
+      "Concept & Design",
+      "Programming & Engine Integration",
+      "Art & Animation",
+      "Sound Design",
+      "Testing & Deployment"
+    ],
+    "mobile_apps_title": "Mobile Apps",
+    "mobile_apps_description": "Develop intuitive and high-performing mobile applications for iOS and Android. We focus on user experience and robust functionality to ensure your app stands out in the competitive market.",
+    "mobile_apps_features": [
+      "Native iOS & Android Development",
+      "Cross-Platform Development (React Native, Flutter)",
+      "UI/UX Design for Mobile",
+      "Backend Integration",
+      "App Store Optimization (ASO)"
+    ],
+    "erp_systems_title": "ERP Systems",
+    "erp_systems_description": "Streamline your business operations with custom Enterprise Resource Planning (ERP) systems. We design and implement integrated solutions that manage your core business processes, from finance to supply chain.",
+    "erp_systems_features": [
+      "Custom ERP Development",
+      "Module Integration (CRM, HR, Finance)",
+      "Data Migration & Analytics",
+      "System Customization",
+      "Support & Maintenance"
+    ],
+    "ui_ux_design_title": "UI/UX Design",
+    "ui_ux_design_description": "Create engaging and user-friendly digital experiences with our UI/UX design services. We focus on intuitive interfaces and seamless interactions to ensure your product is both beautiful and functional.",
+    "ui_ux_design_features": [
+      "User Research & Analysis",
+      "Wireframing & Prototyping",
+      "User Interface (UI) Design",
+      "User Experience (UX) Design",
+      "Usability Testing"
+    ]
+  },
+  "project_detail": {
+    "project1_title": "Smart City Dashboard",
+    "project1_description": "Developed an interactive dashboard for smart city management, integrating real-time data from various sensors to monitor traffic, air quality, and public safety. The dashboard provides actionable insights for urban planners.",
+    "project1_tech": "React, Node.js, MongoDB, D3.js",
+    "project1_outcome": "Improved urban planning efficiency by 30% and enhanced public safety monitoring.",
+    "project2_title": "E-commerce Platform Redesign",
+    "project2_description": "Revamped an existing e-commerce platform with a modern UI/UX, improved performance, and new features like personalized recommendations and a streamlined checkout process. Resulted in significant increase in conversion rates.",
+    "project2_tech": "Next.js, Tailwind CSS, Strapi CMS, PostgreSQL",
+    "project2_outcome": "Increased conversion rates by 15% and reduced page load times by 40%.",
+    "project3_title": "Healthcare AI Diagnostic Tool",
+    "project3_description": "Built an AI-powered diagnostic tool for early detection of diseases using medical imaging. The tool assists healthcare professionals in making more accurate and timely diagnoses, improving patient outcomes.",
+    "project3_tech": "Python, TensorFlow, Flask, React",
+    "project3_outcome": "Achieved 95% accuracy in disease detection and significantly reduced diagnostic time."
+  }
+}

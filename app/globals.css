@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode Colors */
+    --background: 0 0% 100%; /* White */
+    --foreground: 222.2 84% 4.9%; /* Near Black */
+
+    --primary: 190 80% 25%; /* Deep Teal */
+    --primary-foreground: 210 40% 98%; /* Near White */
+
+    --secondary: 210 20% 95%; /* Light Cool Gray */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Near Black */
+
+    --muted: 210 20% 95%; /* Same as secondary light */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Medium Gray */
+
+    --accent: 270 70% 50%; /* Vibrant Purple */
+    --accent-foreground: 210 40% 98%; /* Near White */
+
+    --border: 214.3 31.8% 91.4%; /* Light Gray */
+    --input: 214.3 31.8% 91.4%; /* Light Gray */
+    --ring: var(--primary); /* Uses primary color for focus ring */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 222.2 84% 4.9%; /* Near Black */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 222.2 84% 4.9%; /* Near Black */
+
+    --destructive: 0 84.2% 60.2%; /* Red */
+    --destructive-foreground: 210 40% 98%; /* Near White */
+
+    --radius: 0.5rem;
+
+    /* Scrollbar Light Mode */
+    --scrollbar-track-light: #f1f1f1;
+    --scrollbar-thumb-light: #888;
+    --scrollbar-thumb-hover-light: #555;
+  }
+
+  .dark {
+    /* Dark Mode Colors */
+    --background: 222.2 84% 4.9%; /* Near Black */
+    --foreground: 210 40% 98%; /* Near White */
+
+    --primary: 190 80% 65%; /* Lighter Vibrant Teal */
+    --primary-foreground: 222.2 47.4% 11.2%; /* Near Black */
+
+    --secondary: 210 10% 15%; /* Dark Cool Gray */
+    --secondary-foreground: 210 40% 98%; /* Near White */
+
+    --muted: 210 10% 15%; /* Same as secondary dark */
+    --muted-foreground: 215 20.2% 65.1%; /* Lighter Gray */
+
+    --accent: 270 70% 70%; /* Lighter Vibrant Purple */
+    --accent-foreground: 222.2 47.4% 11.2%; /* Near Black */
+
+    --border: 217.2 32.6% 17.5%; /* Dark Gray */
+    --input: 217.2 32.6% 17.5%; /* Dark Gray */
+    --ring: var(--primary); /* Uses primary color for focus ring */
+
+    --card: 222.2 84% 4.9%; /* Near Black */
+    --card-foreground: 210 40% 98%; /* Near White */
+
+    --popover: 222.2 84% 4.9%; /* Near Black */
+    --popover-foreground: 210 40% 98%; /* Near White */
+
+    --destructive: 0 62.8% 30.6%; /* Darker Red */
+    --destructive-foreground: 210 40% 98%; /* Near White */
+
+    /* Scrollbar Dark Mode */
+    --scrollbar-track-dark: #222;
+    --scrollbar-thumb-dark: #555;
+    --scrollbar-thumb-hover-dark: #777;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-500; /* Smooth theme transition */
+
+    /* Firefox Scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-light) var(--scrollbar-track-light);
+  }
+
+  /* WebKit Scrollbar (Chrome, Edge, Safari) - Light Mode */
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-light);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-light);
+    border-radius: 6px;
+    border: 2px solid var(--scrollbar-track-light); /* Creates padding around the thumb */
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover-light);
+  }
+
+  /* Dark Mode Scrollbar */
+  .dark body {
+    scrollbar-color: var(--scrollbar-thumb-dark) var(--scrollbar-track-dark);
+  }
+
+  /* WebKit Scrollbar (Chrome, Edge, Safari) - Dark Mode */
+  .dark body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-dark);
+  }
+
+  .dark body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-dark);
+    border-color: var(--scrollbar-track-dark);
+  }
+
+  .dark body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover-dark);
+  }
+}
+
+/* Custom animation delay utility for Tailwind */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
