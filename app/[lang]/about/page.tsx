@@ -2,14 +2,6 @@ import Image from "next/image"
 import { getDictionary } from "@/lib/dictionaries"
 import { cn } from "@/lib/utils"
 
-export async function generateStaticParams() {
-  return [
-    { lang: 'en' }, // اللغة الإنجليزية
-    { lang: 'ar' }, // اللغة العربية
-  ];
-}
-
-
 export default async function AboutPage({
   params: { lang },
 }: {

@@ -8,13 +8,6 @@ import { ContactForm } from "@/components/contact-form"
 import { cn } from "@/lib/utils"
 import { NeuralNetworkCanvas } from "@/components/neural-network-canvas" // Import the new component
 
-export async function generateStaticParams() {
-  return [
-    { lang: 'en' }, // اللغة الإنجليزية
-    { lang: 'ar' }, // اللغة العربية
-  ];
-}
-
 export default async function HomePage({
   params: { lang },
 }: {
